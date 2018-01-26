@@ -15,7 +15,7 @@ I am an experienced programmer.  My varied experience in customer service positi
 + Built, tested and deployed software products.
 + Modified existing software to correct errors, adapt to new software updates and improve performance.
 + Performed regression and system-level testing to verify software quality and function before it was released.
-Designed intuitive graphical user interfaces.
++ Designed intuitive graphical user interfaces.
 + Consulted with engineering staff to evaluate interface between hardware and software.
 
 [Visit My LinkedIn Account Here!](https://www.linkedin.com/in/keri-hedman-927630150/)
