@@ -1,4 +1,4 @@
-![Cool Fog Picture](Fog_Proj.jpg)
+![Hello All!](This_is_me.jpg)
 # Welcome to Keri Hedman's Project Work in Progress #
 
 I am an experienced programmer.  My varied experience in customer service positions gives me a unique perspective on working with customers and their needs, including how to gather the necessary information for project design while keeping business requirements in mind.
