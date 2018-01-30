@@ -1,0 +1,56 @@
+html {
+  box-sizing: border-box;
+}
+body {
+  background-color: #DCDCDC;
+}
+div {
+
+}
+h1 {
+
+}
+h3 {
+
+}
+p {
+
+}
+hr {
+  height: 3px;
+}
+.continuity {
+  color: maroon;
+  font-weight: bold;
+}
+.highlight {
+  color: black;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 150%;
+}
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+#navBar {
+
+}
+#blogHeader {
+  color: maroon;
+  background-color: thistle;
+  border: 2px solid maroon;
+  padding: 10px 10px 10px 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#content {
+  background-color: thistle;
+  border: 2px solid maroon;
+  padding: 10px 10px 10px 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#blogFooter {
+
+}
