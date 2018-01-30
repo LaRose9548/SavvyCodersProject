@@ -33,6 +33,10 @@ hr {
   max-width: 960px;
   margin: 0 auto;
 }
+.container a {
+  color: maroon;
+  font-weight: bold;  
+}
 #navBar {
 
 }
