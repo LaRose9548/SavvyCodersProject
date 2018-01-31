@@ -23,6 +23,10 @@ hr {
   color: maroon;
   font-weight: bold;
 }
+.continuity a {
+  color: maroon;
+  font-weight: bold;
+}
 .highlight {
   color: black;
   font-variant: small-caps;
@@ -33,15 +37,17 @@ hr {
   max-width: 960px;
   margin: 0 auto;
 }
-.container a {
-  color: maroon;
-  font-weight: bold;  
-}
 #navBar {
 
 }
+#linksFooter {
+
+}
+#contactMe {
+  
+}
 #blogHeader {
-  color: maroon;
+/*  color: maroon;  */
   background-color: thistle;
   border: 2px solid maroon;
   padding: 10px 10px 10px 10px;
@@ -54,7 +60,4 @@ hr {
   padding: 10px 10px 10px 10px;
   margin-top: 10px;
   margin-bottom: 10px;
-}
-#blogFooter {
-
 }
