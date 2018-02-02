@@ -1,3 +1,6 @@
+* {
+
+}
 html {
   box-sizing: border-box;
 }
@@ -27,6 +30,9 @@ hr {
   color: maroon;
   font-weight: bold;
 }
+.linkBox {
+  padding: 20px 50px 20px 50px;
+}
 .highlight {
   color: black;
   font-variant: small-caps;
@@ -36,6 +42,13 @@ hr {
 .container {
   max-width: 960px;
   margin: 0 auto;
+}
+.entryContent {
+  background-color: thistle;
+  border: 2px solid maroon;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 #navBar {
 
@@ -48,13 +61,6 @@ hr {
 }
 #blogHeader {
 /*  color: maroon;  */
-  background-color: thistle;
-  border: 2px solid maroon;
-  padding: 10px 10px 10px 10px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-#content {
   background-color: thistle;
   border: 2px solid maroon;
   padding: 10px 10px 10px 10px;
