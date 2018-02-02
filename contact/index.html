@@ -23,21 +23,25 @@
     The method attribute specifies the HTTP method (GET or POST)
   -->
 
-  <form action="form-responses/new" method="POST">
+  <form action="form-responses/new" method="POST" align="center">
 
-    <input type="text" name="firstname" value="First Name" size="100" autofocus>
-    <input type="text" name="lastname" value="Last Name" size="100">
+    <input type="text" name="firstname" value="First Name" size="30">
+    <input type="text" name="lastname" value="Last Name" size="30">
+    <br>
     <input type="email" name="userEmail" placeholder="your.email@example.com">
-
+    <br><br>
     <label>What's this message about?
-      <input type="radio" name="subject" value="professional" checked><span>I'd like to hire you!</span>
-      <input type="radio" name="subject" value="personal" checked><span>Personal message</span>
-      <input type="radio" name="subject" value="other" checked><span>Don't know/something else</span>
+      <br><input type="radio" name="subject" value="professional" checked>
+      <span>I'd like to hire you!</span>
+      <br><input type="radio" name="subject" value="personal" checked>
+      <span>Personal message.</span>
+      <br><input type="radio" name="subject" value="other" checked>
+      <span>Don't know/Something else.</span>
     </label>
-
+    <br><br>
     <input type="checkbox" name="optin" value="trusting" checked>Subscribe me to your newsletter!
     <input type="checkbox" name="optout" value="skeptical" disabled>Cheeky checkbox...
-
+    <br>
     <label for="marketing">How did you hear about me?</label>
     <select name="marketing">
       <optgroup label="Online">
@@ -53,8 +57,9 @@
       </optgroup>
       <option value="other">Other</option>
     </select>
-
+    <br>
     <textarea name="user_message" rows="8" cols="40"></textarea>
+    <br>
     <input type="submit">
   </form>
   </div>
