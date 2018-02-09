@@ -72,5 +72,17 @@ hr {
   padding: 10px;
 }
 #greeting p {
-  
+
+}
+#question_1 {
+  background-color: silver;
+  padding: 10px;
+}
+#question_2 {
+  background-color: silver;
+  padding: 10px;
+}
+#result {
+  background-color: lightblue;
+  padding: 10px;
 }
