@@ -22,6 +22,9 @@ p {
 hr {
   height: 1px;
 }
+a {
+  text-decoration: none;
+}
 .continuity {
   color: maroon;
   font-weight: bold;
@@ -85,4 +88,22 @@ hr {
 #result {
   background-color: lightblue;
   padding: 10px;
+}
+#exercise1 {
+
+}
+#exercise2 {
+
+}
+#exercise3 {
+
+}
+#exercise4 {
+
+}
+#exercise5 {
+
+}
+#exercise6 {
+  
 }
