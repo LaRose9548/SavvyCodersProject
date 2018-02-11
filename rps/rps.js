@@ -1,7 +1,10 @@
 // Variable Initializations
 let handUser = 'R';
+let handUserIndex = 0;
 let handComp = handUser;
+let handCompIndex = 0;
 let hands = ['R','P','S'];
+let handsStrs = ['Rock', 'Paper', 'Scissors'];
 let exitLoop = false;
 let roundCounter = 0;
 let divs = ['#result_1', '#result_2', '#result_3',
@@ -33,45 +36,49 @@ const userSelection = () => {
     }
   } while (exitLoop !== true); // handUser has a valid selection
 
-  return handUser;
+  if (handUser === 'R') { handUserIndex = 0; }
+  else if (handUser === 'P') { handUserIndex = 1; }
+  else { handUserIndex = 2; }
+
+  return handUserIndex;
 }
 
 // Creating Computer Selection
 const compSelection = () => {
-  do {
-    handCompIndex = Math.ceil(Math.floor(Math.random() * 100) / 33) - 1;
-    handComp = hands[handCompIndex];
-    handComp = handCheck (handComp)
-  } while (handComp === 'invalid');
-
-  return handComp;
+    return Math.floor(Math.random() * 3); // 0, 1, 2
 }
 
 // 1 round of Rock-Paper-Scissors
 const gameRound = (divCounter) => {
-  handComp = compSelection ();
-  handUser = userSelection ();
+  handCompIndex = compSelection ();
+  handUserIndex = userSelection ();
   output = document.querySelector(divs[divCounter-1]);
-console.log("comp is " + handComp + " user is " + handUser);
-  if (handComp !== handUser) {
-    // Rock beat Scissors
-    // Scissors beat Paper
-    // Paper beat Rock
-    if ((handComp === 'R' && handUser === 'S') ||
-    (handComp === 'S' && handUser === 'P') ||
-    (handComp === 'P' && handUser === 'R')) {
+
+  if (handCompIndex !== handUserIndex) {
+    // Rock beat Scissors ( 0 vs 2)
+    // Scissors beat Paper (2 vs 1)
+    // Paper beat Rock (1 vs 0)
+    if ((handCompIndex === 0 && handUserIndex === 2) ||
+    (handCompIndex === 2 && handUserIndex === 1) ||
+    (handCompIndex === 1 && handUserIndex === 0)) {
       // Computer wins
-      output.innerHTML = "<p>Computer wins!</p> Computer chose " + handComp
-      + ". You chose " + handUser + ".";
+      output.innerHTML = "<p class='highlight'>Computer wins!</p>Computer chose "
+      + handsStrs[handCompIndex] + ".  You chose " + handsStrs[handUserIndex] + ".";
+      alert ("Computer wins! Computer chose " + handsStrs[handCompIndex]
+      + ".  You chose " + handsStrs[handUserIndex] + ".");
     } else {
       // User wins
-      output.innerHTML = "<p>You win!</p> Computer chose " + handComp
-      + ". You chose " + handUser + ".";
+      output.innerHTML = "<p class='highlight'>You win!</p>Computer chose "
+      + handsStrs[handCompIndex] + ".  You chose " + handsStrs[handUserIndex] + ".";
+      alert ("You win! Computer chose " + handsStrs[handCompIndex]
+      + ".  You chose " + handsStrs[handUserIndex] + ".");
     }
   } else {
       // Tie
-      output.innerHTML = "<p>Tie!</p> Computer chose " + handComp
-      + ". You chose " + handUser + ".";
+      output.innerHTML = "<p class='highlight'>Tie!</p>Computer chose "
+      + handsStrs[handCompIndex] + ".  You chose " + handsStrs[handUserIndex] + ".";
+      alert ("Tie! Computer chose " + handsStrs[handCompIndex]
+      + ".  You chose " + handsStrs[handUserIndex] + ".");
   }
 }
 
