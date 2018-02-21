@@ -53,10 +53,16 @@ a {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-#navBar {
+#profilePic { /* Home Page Image */
 
 }
-#linksFooter {
+#hidden-blurb { /* Home Page Image Hidden Blurb */
+  display: none;
+}
+#navBar { /* Navigation Bar */
+
+}
+#linksFooter { /* Links in the Footer */
 
 }
 #contactMe {
@@ -89,47 +95,47 @@ a {
   background-color: lightblue;
   padding: 10px;
 }
-#exercise1 {
+#exercise1 { /* Loop Crazy in Exercises */
   background-color: silver;
   padding: 10px;
 }
-#exercise2 {
+#exercise2 { /* Loop Crazy in Exercises */
   background-color: silver;
   padding: 10px;
 }
-#exercise3 {
+#exercise3 { /* Loop Crazy in Exercises */
   background-color: silver;
   padding: 10px;
 }
-#exercise4 {
+#exercise4 { /* Loop Crazy in Exercises */
   background-color: silver;
   padding: 10px;
 }
-#exercise5 {
+#exercise5 { /* Loop Crazy in Exercises */
   background-color: silver;
   padding: 10px;
 }
-#exercise6 {
+#exercise6 { /* Loop Crazy in Exercises */
   background-color: silver;
   padding: 10px;
 }
-#result_1 {
+#result_1 { /* Loop Crazy in Exercises */
   background-color: silver;
   padding: 10px;
 }
-#result_2 {
+#result_2 { /* Loop Crazy in Exercises */
   background-color: silver;
   padding: 10px;
 }
-#result_3 {
+#result_3 { /* Loop Crazy in Exercises */
   background-color: silver;
   padding: 10px;
 }
-#result_4 {
+#result_4 { /* Loop Crazy in Exercises */
   background-color: silver;
   padding: 10px;
 }
-#result_5 {
+#result_5 { /* Loop Crazy in Exercises */
   background-color: silver;
   padding: 10px;
 }
