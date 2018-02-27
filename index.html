@@ -6,48 +6,51 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <link type="text/css" rel="stylesheet" href="css/style.css"/>
-  <style>
-  #pictSize {
-    height: 250px;
-    width: 190px;
-  }
-  </style>
-  <title>Keri Hedman | Web Developer (in Training)</title>
+  <title>Keri Hedman | Web Developer</title>
 </head>
 <body>
-  <div id="navBar" class="container continuity" align="center">
-    <h3>
-      <a href="../" class="linkBox">Home</a>
-      <a href="../projects/" class="linkBox">Projects</a>
-      <a href="../media/" class="linkBox">Media</a>
-      <a href="../blog/" class="linkBox">Blog</a>
-      <a href="../contact/" class="linkBox">Contact Me</a>
-    </h3>
-  </div>
+  <!-- Universal navBar using navBar_linksFooter.js -->
+  <!-- Name is setting PWD location for navBar_linksFooter.js usage -->
+  <div id="navBar" name="home" class="container continuity" align="center"></div>
 
   <h1 align="center" class="continuity">Welcome to Keri Hedman's Project Work</h1>
-  <hr color="maroon">
+  <hr id="underTitle" color="maroon">
+
+  <!-- Personal self-description and history. -->
   <table align"left">
     <tr>
-      <td rowspan="2">
+      <td rowspan="2" valign="top">
         <img id="profilePic" src="This_is_me.jpg">
       </td>
       <td valign="top">
-        <p>I am an experienced programmer.  My varied experience in
+        <p>I am an experienced programmer whose varied experience in
     customer service positions gives me a unique perspective
-    on working with customers and their needs, including how
+    on working with customers and their needs.  This includes how
     to gather the necessary information for project design
     while keeping business requirements in mind.</p>
+        <p>This website design project is under the direction of the
+    Tech Workforce Program (TWP) in Chattanooga, TN.  The TWP in
+    designed to teach modern website design and basic programming
+    concepts to people that range from no formal or informal experience
+    in programming of any kind to those with bachelor degrees, like me.</p>
+        <p>I became sick over 10 years ago and fell out of the current
+    flow of time in the world of computers and programming.  As we know,
+    programming concepts and languages change rapidly.  If you cannot
+    keep up, you become left behind.  For me, this program is a way to
+    return to the world of computers and programming, and to learn about
+    the new world of website design.</p>
       </td>
     </tr>
     <tr>
-      <td valign="bottom">
+      <td valign="bottom" align="center">
+        <!-- Uses home.js -->
         <p id="hidden-blurb" class="highlight">Forever a Student!</p>
-        <p>This site is a work in progress in a web coding course.</p>
-      </td>
+        </td>
     </tr>
   </table>
   <hr color="maroon">
+
+  <!-- List of personal attributes and abilities. -->
   <ul>
     <li>Accurate and detailed</li>
     <li>Analytical and methodical</li>
@@ -56,9 +59,10 @@
     <li>Troubleshooting and debugging</li>
     <li>Advanced problem solving skills</li>
     <li>Database management</li>
-    <li>Experienced in C, LabView, MatLab and Basic</li>
-    <li>Learning C#, HTML5, CSS and JavaScript</li>
+    <li>Experienced in C, LabView, MatLab, Basic, HTML5, CSS and JavaScript.</li>
+    <li>Working on certification for C#</li>
     <li>Built, tested and deployed software products.</li>
+    <li>Updated and created user and technical manuals.</li>
     <li>Modified existing software to correct errors, adapt to
       new software updates and improve performance.</li>
     <li>Performed regression, unit, functional, integration, usability and system
@@ -67,18 +71,13 @@
     <li>Consulted with engineering staff to evaluate interface between hardware
       and software.</li>
   </ul>
-  <div id="linksFooter" class="container continuity" align="center">
-    <h3>
-      <a href="https://www.linkedin.com/in/keri-hedman-927630150/" class="linkBox">
-          <img src="./images/linkedin-square-tm.png" style="width:70px;height:35px;border:0;"></a>
-      <a href="https://github.com/LaRose9548" class="linkBox">
-          <img src="./images/github-square-logo.jpg" style="width:30px;height:30px;border:0;"></a>
-    </h3>
-  </div>
-  <!-- This site is underdevelopment while learning at Tech Town in the
-    Tech Workforce Program. Styles, layouts, tables, etc will all be changed
-    out in time. -->
+
+  <!-- Universal linksFooter using navBar_linksFooter.js -->
+  <div id="linksFooter" class="container continuity" align="center"></div>
+
   <script type="text/javascript" src="home.js"></script>
+  <script type="text/javascript" src="navBar_linksFooter.js"></script>
+  
 </body>
 </html>
 

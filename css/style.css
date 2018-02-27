@@ -53,8 +53,18 @@ a {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+#location { /* Hiding the location used by navBar_linksFooter.js */
+  display: none;
+}
+#underTitle { /* Needing a bit of spacing */
+  margin-bottom: 20px;
+}
 #profilePic { /* Home Page Image */
-
+  height: 250px;
+  width: 190px;
+  margin-left: 10px;
+  margin-right: 15px;
+  margin-bottom: 10px;
 }
 #hidden-blurb { /* Home Page Image Hidden Blurb */
   display: none;
@@ -77,8 +87,7 @@ a {
   margin-bottom: 10px;
 }
 #greeting {
-  background-color: silver;
-  padding: 10px;
+  
 }
 #greeting p {
 
