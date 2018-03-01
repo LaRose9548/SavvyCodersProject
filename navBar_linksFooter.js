@@ -1,3 +1,4 @@
+// Checking to see how far down the current page is from home.
 let depth = '';
 let nodeList = document.getElementsByName("home");
 if (nodeList.length === 1) { depth = '../'; }
@@ -13,7 +14,7 @@ else {
   }
 }
 
-// JavaScript for the NavBar at same folder depth.
+// JavaScript for the NavBar at given depth.
 let outputNavBar = document.querySelector("#navBar");
 outputNavBar.innerHTML =
 '<h3>\
@@ -24,7 +25,7 @@ outputNavBar.innerHTML =
   <a href="' + depth + 'contact/" class="linkBox">Contact Me</a>\
 </h3>';
 
-// JavaScript for the LinksFooter at same folder depth.
+// JavaScript for the LinksFooter at given depth.
 let outputLinksFooter = document.querySelector("#linksFooter");
 outputLinksFooter.innerHTML =
 '<h3>\
