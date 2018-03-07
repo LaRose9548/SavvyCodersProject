@@ -1,7 +1,7 @@
 // w3schools how to use google.translate.TranslateElement
 function googleTranslateElementInit() {
   new google.translate.TranslateElement(
-    {pageLanguage: 'en'},
+    {pageLanguage: 'la'},
     'google_translate_element'
   );
 }
