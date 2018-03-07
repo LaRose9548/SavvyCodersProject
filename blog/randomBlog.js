@@ -1,15 +1,15 @@
-// w3schools how to use google.translate.TranslateElement
-function googleTranslateElementInit() {
-  new google.translate.TranslateElement(
-    {pageLanguage: 'la'},
-    'google_translate_element'
-  );
-}
+// // w3schools how to use google.translate.TranslateElement
+// function googleTranslateElementInit() {
+//   new google.translate.TranslateElement(
+//     {pageLanguage: 'la'},
+//     'google_translate_element'
+//   );
+// }
 
 // Creating a single blog entry
 const createBlogEntry = (post) => {
   let blogStr = '<div class="container entryContent">';
-  blogStr += '<h3>' + post.id + ': ' + post.title + '</h3>';
+  blogStr += '<h3>(' + post.id + ') ' + post.title + '</h3>';
   blogStr += '<p>' + post.body + '</p>';
   blogStr += '</div>';
 
