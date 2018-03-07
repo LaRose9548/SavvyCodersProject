@@ -1,11 +1,3 @@
-// // w3schools how to use google.translate.TranslateElement
-// function googleTranslateElementInit() {
-//   new google.translate.TranslateElement(
-//     {pageLanguage: 'la'},
-//     'google_translate_element'
-//   );
-// }
-
 // Creating a single blog entry
 const createBlogEntry = (post) => {
   let blogStr = '<div class="container entryContent">';
