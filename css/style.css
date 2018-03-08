@@ -1,5 +1,5 @@
 * {
-
+  /*border: 2px solid maroon;*/
 }
 html {
   box-sizing: border-box;
@@ -48,6 +48,10 @@ a {
 }
 .container30 {
   max-width: 288px;
+  margin: 0 auto;
+}
+.container60 {
+  max-width: 576px;
   margin: 0 auto;
 }
 .container70 {
