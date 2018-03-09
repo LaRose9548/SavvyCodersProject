@@ -57,7 +57,5 @@ const addSubjectSpecificHTML = (subject) => {
 $( "#radioSelector" ).on( "click", function ( event ) {
   var data = $( event.target ).serializeArray(); // Parsing form info to data obj
 
-console.log(data[0].value);
-
   addSubjectSpecificHTML (data[0].value);
 });
