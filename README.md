@@ -2,11 +2,16 @@
 # Welcome to Keri Hedman's #
 # Tech Workforce Program (TWP) 2.0 Project #
 
-I am an experienced programmer whose varied experience in customer service positions gives me a unique perspective on working with customers and their needs.  This includes how to gather the necessary information for project design while keeping business requirements in mind.
+With varied experiences in coding and customer service, I excel
+at working with internal and external clients to create a cooperative
+environment to ensure the end product's quality and timeliness.
 
-This website design project is under the direction of the Tech Workforce Program (TWP) in Chattanooga, TN.  The TWP is designed to teach modern website design and basic programming concepts to people that range from no formal or informal experience in programming of any kind to those with bachelor degrees, like me.
-
-I became sick over 10 years ago and fell out of the current flow of time in the world of computers and programming.  As we know, programming concepts and languages change rapidly.  If you cannot keep up, you become left behind.  For me, this program is a way to return to the world of computers and programming, and to learn about the new world of website design.
+Mixing my previous work experience in pre-press graphic arts and
+desktop application development with my newly acquired skills in JavaScript
+with jQuery, HTML and CSS, I am looking forward to a new back-end website
+or desktop application development career.  Please check out my website,
+visit my GitHub account and view my work history in LinkedIn.  You can use
+the contact page to reach me at any time should you desire.
 
 + Experienced in C, LabView, MatLab, Basic, HTML5, CSS and JavaScript with jQuery.
 + Working on certification for C#
